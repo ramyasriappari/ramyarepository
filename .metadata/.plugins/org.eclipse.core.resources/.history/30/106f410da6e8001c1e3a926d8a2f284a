@@ -1,0 +1,14 @@
+ package twowheeler;
+
+import com.automobile.Vehicle;
+
+public class Hero extends Vehicle {
+       public int getSpeed()
+       {
+    	   return getSpeed();
+	}
+      public void radio()
+      {
+    	  System.out.println("provide facility to control the radio device");
+      }
+}

@@ -1,0 +1,29 @@
+ package twowheeler;
+
+import com.automobile.Vehicle;
+
+public class Hero extends Vehicle {
+       public int getSpeed()
+       {
+    	   return getSpeed();
+	}
+      public void radio()
+      {
+    	  System.out.println("provide facility to control the radio device");
+      }
+	@Override
+	public String getMethod() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getRegistration() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public String getOwnerName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

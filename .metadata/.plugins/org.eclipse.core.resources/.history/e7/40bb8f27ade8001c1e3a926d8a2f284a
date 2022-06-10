@@ -1,0 +1,23 @@
+package com.automobile.vehicle;
+
+import twowheeler.Hero;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Hero ob=new Hero();
+		System.out.println(ob.getSpeed(90));
+		System.out.println(ob.getModelName());
+		System.out.println(ob.getRegistration());
+		System.out.println(ob.getRegistration());
+        System.out.println(	ob.getOwnerName());
+		Honda ob1=new Honda();
+		System.out.println(ob.getSpeed(100));
+		System.out.println(ob.getModelName());
+		System.out.println(ob.getRegistration());
+		System.out.println(ob.getRegistration());
+        System.out.println(	ob.getOwnerName());
+        
+	}
+
+}

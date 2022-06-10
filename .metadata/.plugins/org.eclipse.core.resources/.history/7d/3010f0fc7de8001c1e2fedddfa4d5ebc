@@ -1,0 +1,19 @@
+package com.collection;
+
+import java.util.LinkedHashSet;
+
+public class LinkedHashSets {
+
+	public static void main(String[] args) {
+		LinkedHashSet<String> ob=new LinkedHashSet<String>();
+		 ob.add("Ramya");
+         ob.add("murthy");
+         ob.add("sarada");
+         ob.add("sowji");
+         System.out.println(ob);
+         System.out.println(ob.contains("murthy"));
+         System.out.println(ob);
+
+	}
+
+}

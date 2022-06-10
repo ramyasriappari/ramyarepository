@@ -1,0 +1,27 @@
+package com.train;
+class RailwayStation
+{
+	void travelling()
+	{
+		System.out.println("The train is on the platform");
+		Train3 obj=new Train3();
+		obj.travel();
+		
+	}
+}
+class Train3
+{
+	void travel()
+	{
+		System.out.println("The train is ready move");
+	}
+}
+public class MemberInner {
+
+	public static void main(String[] args) {
+		RailwayStation ob=new RailwayStation();
+		ob.travelling();
+
+	}
+
+}

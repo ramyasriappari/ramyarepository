@@ -1,0 +1,42 @@
+package com.train;
+class RailwayStation1
+{
+	int trainNum;
+	int seatNum;
+	String passangerName;
+	void travelling()
+	{
+		System.out.println("The Train is Platform one");
+		class Trains
+		{
+			String fromStation;
+			String toStation;
+			void travel()
+			{
+				System.out.println("From Station is "+fromStation);
+				System.out.println("To Station is "+toStation);
+			}
+		
+		}
+		
+		Trains ob1=new Trains();
+		ob1.travel();
+
+		class Train5
+		{
+			void travels()
+			{
+				System.out.println("The Train is ready to move");
+			}
+	}
+		}
+	
+
+public class LocalInnerClass {
+	public static void main(String[] args) {
+		RailwayStation1 obj=new RailwayStation1();
+		obj.trainNum=17052;
+		obj.seatNum=64;
+		obj.passangerName="Ramya";
+	}
+}

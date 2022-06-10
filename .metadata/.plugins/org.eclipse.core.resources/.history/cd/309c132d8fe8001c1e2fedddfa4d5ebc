@@ -1,0 +1,19 @@
+package com.collection;
+class  AndhraBank
+{
+	static {
+		System.out.println("account holder name is:ramya");
+	}
+	 AndhraBank() {
+		 System.out.println("account num is:1234567");		
+	}
+}
+
+public class ForNameDemo {
+
+	public static void main(String[] args) {
+		System.out.println("tyhtrgbgryt");
+
+	}
+
+}

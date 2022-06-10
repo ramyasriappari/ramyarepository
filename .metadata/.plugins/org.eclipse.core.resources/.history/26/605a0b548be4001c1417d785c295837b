@@ -1,0 +1,15 @@
+package com.train;
+abstract class Train1
+{
+	abstract void travelling();
+	 void travel()
+	 {
+		 System.out.println("Reached safely");
+	 }
+	
+}
+ class Narsapur2 extends Train1
+
+public class DemoTrain2 {
+
+}

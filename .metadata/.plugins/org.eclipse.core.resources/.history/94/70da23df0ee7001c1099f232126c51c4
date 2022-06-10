@@ -1,0 +1,22 @@
+package com.exception;
+
+public class ArrayStoreException {
+
+	public static void main(String[] args) {
+	Object [] Array=new String[6];
+	Array[0]="ramya";
+	System.out.println(Array[0]);
+	
+	try
+	{
+		Array[1]=12;
+		
+	}
+      catch(ArrayStoreException e) {
+		System.out.println("exception handled");
+	
+      }
+		
+	}
+
+}

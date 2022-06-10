@@ -1,0 +1,13 @@
+package com.collection;
+
+import java.util.HashMap;
+
+public class HashMapDemo {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> ob=new HashMap<Integer,String>();
+		ob.put(1, "Ramya");
+
+	}
+
+}

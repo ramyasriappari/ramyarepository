@@ -1,0 +1,44 @@
+package com.train;
+abstract class Train1
+{
+	public String name;
+	public String paltform;
+	abstract void travelling();
+	 void travel()
+	 {
+		 System.out.println(" Reached safely");
+	 }
+	
+}
+ class Narsapur1 extends Train1
+ {
+	 void travelling()
+	 {
+		 String platform1;
+		 System.out.println("from station is Nsp");
+		 System.out.println("to station is Hyd");
+		 super.name="ramya";
+		 this.paltform="platform1";
+		 
+	 }
+	 
+ }
+class VishakhaExp1 extends Narsapur1
+ {
+	 void travelling()
+	 {
+		 System.out.println("from station is Vizag");
+		 System.out.println("to station is Araku");
+	 }
+	 
+ }
+
+public class DemoTrain {
+	public static void main(String args[])
+	{
+	 Train1 ob=new Narsapur1();
+    ob.travelling();
+    ob.travel();
+
+}
+}
