@@ -1,7 +1,4 @@
 package calculator;
-
-
-
 public class CalculatorDemo {
 	static int powerInt(int num1,int num2)
 	{
@@ -14,11 +11,6 @@ public class CalculatorDemo {
 	public static void main(String[] args) {
 		System.out.println("the first method value is: "+CalculatorDemo.powerInt(5, 8));
 		System.out.println("the second method value is:"+CalculatorDemo.powerDouble(4.5, 6));
-		
-		
-		
-	
-		
 	}
 
 }

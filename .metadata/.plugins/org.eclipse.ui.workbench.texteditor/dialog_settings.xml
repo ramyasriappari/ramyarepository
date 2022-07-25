@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Employee"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="cqty"/>
+			<item value="cfg"/>
+			<item value="push"/>
+			<item value="values"/>
+			<item value="rom"/>
+			<item value="t"/>
 			<item value="Employee"/>
 			<item value="System.out.println"/>
 		</list>
